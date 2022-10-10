@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_raphael.mk
+    $(LOCAL_DIR)/spark_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_raphael-user \
-    blaze_raphael-userdebug \
-    blaze_raphael-eng
+    spark_raphael-user \
+    spark_raphael-userdebug \
+    spark_raphael-eng
