@@ -15,14 +15,16 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common ProjectBlaze stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+# Inherit some common BananaDroid stuff.
+$(call inherit-product, vendor/banana/config/common.mk)
 
 # UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+
+BANANA_MAINTAINER := KaranJaiswal
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_raphael
@@ -35,3 +37,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="raphael"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+WITH_GAPPS := true
