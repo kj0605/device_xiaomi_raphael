@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/blaze_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_raphael-user \
-    lineage_raphael-userdebug \
-    lineage_raphael-eng
+    blaze_raphael-user \
+    blaze_raphael-userdebug \
+    blaze_raphael-eng
