@@ -119,3 +119,6 @@ ro.vendor.qti.va_aosp.support=1
 
 # WiFi
 config.disable_rtt=true
+
+# SparkOS Maintainer
+ro.spark.maintainer=Karan Jaiswal
