@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_raphael.mk
+    $(LOCAL_DIR)/tequila_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_raphael-user \
-    blaze_raphael-userdebug \
-    blaze_raphael-eng
+    tequila_raphael-user \
+    tequila_raphael-userdebug \
+    tequila_raphael-eng
