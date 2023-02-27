@@ -619,4 +619,7 @@
 
     <!-- Ignore CNE from privacy (location) indicators -->
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
+
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
 </resources>
