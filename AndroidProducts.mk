@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_raphael.mk
+    $(LOCAL_DIR)/bliss_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_raphael-user \
-    yaap_raphael-userdebug \
-    yaap_raphael-eng
+    bliss_raphael-user \
+    bliss_raphael-userdebug \
+    bliss_raphael-eng
